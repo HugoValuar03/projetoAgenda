@@ -1,0 +1,64 @@
+# Sistema operacional
+*.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Arquivos e pastas do Python
+*.py[cod]
+*.pyo
+__pycache__/
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+*.manifest
+*.spec
+
+# Arquivos e pastas do Virtualenv
+venv/
+env/
+ENV/
+venv.bak/
+*.env
+*.venv
+
+# Arquivos e pastas do Django
+db.sqlite3
+*.log
+media/
+staticfiles/
+static/
+# Ignore diretórios criados pelo collectstatic, exceto quando necessário.
+# Se você versionar arquivos estáticos em produção, remova a linha abaixo:
+static_root/
+
+# Arquivos de IDEs e editores de texto
+.idea/
+.vscode/
+*.swp
+*.swo
+*.swn
+*.~lock.*
+
+# Arquivos do sistema de controle de versões
+*.orig
+*.rej
+
+# Arquivos de teste
+.coverage
+coverage.xml
+.cache/
+.nox
+htmlcov/
+.tox/
+.pytest_cache/
+*.pytest_cache
+
+# Configurações específicas
+secrets.json
+config.yaml
+
+# Docker
+docker-compose.override.yml
